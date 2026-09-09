@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Local credentials and tokens
+oauth_client.local.json
+token.local.json
+expected_channel.local.json
+*.local.json
+
+# Runtime files
+.fannyflay-v4.lock
+v4_cache/
+v4_history/
+v4_logs/
+
+# Local snapshots
+fannyflay-v4-snapshots.jsonl
+fannyflay-v4-channel-snapshots.jsonl
+
+# Generated reports
+fannyflay-master-*.json
+fannyflay-master-*.txt
+fannyflay-master-*.html
+fannyflay-*-videos.csv
+fannyflay-*-daily.csv
+fannyflay-*-data-quality.csv
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
