@@ -1,0 +1,16 @@
+{
+  "name": "ai-context-analyzer",
+  "version": "4.3.1",
+  "description": "Open-source read-only YouTube analytics analyzer with local heuristic analysis.",
+  "main": "index_v4_3_1_final_verified_plus.js",
+  "scripts": {
+    "start": "node index_v4_3_1_final_verified_plus.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "googleapis": "latest"
+  }
+}
